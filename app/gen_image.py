@@ -25,7 +25,7 @@ def phantomjs_generate_image(url, image_path):
 var itv = setInterval(function(){
     var prevScrollHeight = document.body.scrollTop;
     window.scrollTo(0, document.body.scrollTop + 400);
-    if(prevScrollHeight == document.body.scrollTop){
+    if(prevScrollHeight == document.body.scrollTop || document.body.scrollTop > 10000){
         clearInterval(itv);
         var ito = setTimeout(function(){
             document.title += 'scroll_complete';
