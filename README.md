@@ -3,4 +3,5 @@
 ## Requirement
 - nginx & uwsgi
 - virtualenv
-- phantomjs or chrome 
+- phantomjs or chrome(v59+)
+- chromedriver
