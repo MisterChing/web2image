@@ -2,6 +2,6 @@
 
 ## Requirement
 - nginx & uwsgi
-- virtualenv
+- virtualenv & selenuim
 - phantomjs or chrome(v59+)
 - chromedriver
